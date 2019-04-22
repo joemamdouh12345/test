@@ -31,7 +31,7 @@ if (x) x.join();
 
 client.on('ready', function(){    
     var ms = 40000 ;    
-    var setGame = ['شغل خالد الرشيدي','صلو على النبي  '];    
+    var setGame = ['By SHADOW','  '];    
     var i = -1;    
     var j = 0;    
     setInterval(function (){    
@@ -587,7 +587,7 @@ client.on('guildMemberAdd', member => {
     .setDescription('***بكل حب واحترام وشوق نستقبلك ونتمنى لك قضآء أجمل اللحظات ولآوقات معنا***')
     .setColor('RANDOM')
     .setImage('http://www.imgion.com/images/01/Welcome-buddy.jpg')
-var channel =member.guild.channels.find('name', 'chat-msg-bot')
+var channel =member.guild.channels.find('name', 'log')
 if (!channel) return;
 channel.send({embed : embed});
 });
