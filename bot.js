@@ -9,8 +9,8 @@ client.on('ready', () => {
 
 //////////////////////////////////////////////////
 client.on('message', msg => {
-  if (msg.content === '..') {
-    msg.reply('جعل ماينقط غيرك :kissing_heart: ');
+  if (msg.content === '.') {
+    msg.reply(' ★・wêlçømë to Server ★ MĄŃDO ★ :kissing_heart: ');
   }
 });
 
@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 
 client.on('ready', () => {
-var x = client.channels.get("531188443200618520");
+var x = client.channels.get("549665998744059910");
 if (x) x.join();
 });
 
@@ -476,26 +476,6 @@ client.on('ready',async () => {
 ///////////////////////////////////كود الالوان//////////////////////////////////
 
 
- 
-  client.on('message', msg => {//msg
-    if (msg.content === `الالوان`) {
-      msg.channel.send({file : "https://cdn.pg.sa/2wIrLKA0eJ.png"})
-    }
-  });;
-
-  client.on('message', msg => {//msg
-    if (msg.content === `colors`) {
-      msg.channel.send({file : "https://cdn.pg.sa/2wIrLKA0eJ.png"})
-    }
-  });;
-
-
-
-  client.on('message', msg => {//msg
-    if (msg.content === `الوان`) {
-      msg.channel.send({file : "https://cdn.pg.sa/2wIrLKA0eJ.png"})
-    }
-  });;
 
 
  
