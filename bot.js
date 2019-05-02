@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 
 client.on('ready', () => {
-var x = client.channels.get("549665998744059910");
+var x = client.channels.get("514532532516159498");
 if (x) x.join();
 });
 
@@ -69,8 +69,8 @@ client.on('ready',async () => {
   console.log(client.user.username);
   try {
     const config = {
-      name: "S", // اسم الرتبة
-      guildid: "531188443200618516", // اي دي السيرفر
+      name: "MEMBER|GAMING", // اسم الرتبة
+      guildid: "514532532516159498", // اي دي السيرفر
       sec: 5.5 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
