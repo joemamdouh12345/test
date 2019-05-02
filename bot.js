@@ -10,7 +10,7 @@ client.on('ready', () => {
 //////////////////////////////////////////////////
 client.on('message', msg => {
   if (msg.content === '.') {
-    msg.reply(' ★・wêlçømë to Server ★ MĄŃDO ★ :kissing_heart: ');
+    msg.reply(' ★・wêlçømë to Server ★ ~THE_GAMING~ ★ :heart:  ');
   }
 });
 
@@ -31,7 +31,7 @@ if (x) x.join();
 
 client.on('ready', function(){    
     var ms = 40000 ;    
-    var setGame = ['By SHADOW','  '];    
+    var setGame = ['By SHADOW',' By SHADOW '];    
     var i = -1;    
     var j = 0;    
     setInterval(function (){    
@@ -97,9 +97,9 @@ client.on('ready',async () => {
   console.log(client.user.username);
   try {
     const config = {
-      name: "VIP", // اسم الرتبة
-      guildid: "502793545841901579", // اي دي السيرفر
-      sec: 0.1 // عدد الثواني
+      name: "Member", // اسم الرتبة
+      guildid: "514532532516159498", // اي دي السيرفر
+      sec: 5.5 // عدد الثواني
     };
     let guild = client.guilds.get(config.guildid);
     let role = guild.roles.find(role => role.name === config.name);
