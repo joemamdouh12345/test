@@ -17,7 +17,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content === '...') {
-    msg.reply;(' <@318705077734998017> BAN');
+    msg.reply(' <@318705077734998017> BAN  ');
   }
 });
 
